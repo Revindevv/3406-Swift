@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CE6101BF93FFEF7A29FD4B /* Pods_ChicknMatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBB7BB7CA0F163ADEF0A14B /* Pods_ChicknMatch.framework */; };
+		724140392E742BCA000F0503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724140362E742BCA000F0503 /* Assets.xcassets */; };
+		7241403A2E742BCA000F0503 /* ChicknMatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140372E742BCA000F0503 /* ChicknMatchApp.swift */; };
+		724140412E742C0F000F0503 /* CMHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241403C2E742C0F000F0503 /* CMHomeWebView.swift */; };
+		724140422E742C0F000F0503 /* CMLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241403E2E742C0F000F0503 /* CMLaunchView.swift */; };
+		724140472E742C18000F0503 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140452E742C18000F0503 /* ShapeStyle+Extensions.swift */; };
+		724140482E742C18000F0503 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140432E742C18000F0503 /* View+Extensions.swift */; };
+		724140492E742C18000F0503 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140442E742C18000F0503 /* Color+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EDF6C9C1075B2DA8FC20097 /* Pods-ChicknMatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChicknMatch.debug.xcconfig"; path = "Target Support Files/Pods-ChicknMatch/Pods-ChicknMatch.debug.xcconfig"; sourceTree = "<group>"; };
+		724140272E742BA3000F0503 /* ChicknMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicknMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		724140362E742BCA000F0503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		724140372E742BCA000F0503 /* ChicknMatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicknMatchApp.swift; sourceTree = "<group>"; };
+		7241403C2E742C0F000F0503 /* CMHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMHomeWebView.swift; sourceTree = "<group>"; };
+		7241403E2E742C0F000F0503 /* CMLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMLaunchView.swift; sourceTree = "<group>"; };
+		724140432E742C18000F0503 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		724140442E742C18000F0503 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		724140452E742C18000F0503 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		7241404A2E742D46000F0503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AA89D034AC2CE2126D902657 /* Pods-ChicknMatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChicknMatch.release.xcconfig"; path = "Target Support Files/Pods-ChicknMatch/Pods-ChicknMatch.release.xcconfig"; sourceTree = "<group>"; };
+		CFBB7BB7CA0F163ADEF0A14B /* Pods_ChicknMatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChicknMatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		724140242E742BA3000F0503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CE6101BF93FFEF7A29FD4B /* Pods_ChicknMatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD894A71171FA8D9B5D2797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EDF6C9C1075B2DA8FC20097 /* Pods-ChicknMatch.debug.xcconfig */,
+				AA89D034AC2CE2126D902657 /* Pods-ChicknMatch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		41D72C8742C5AB8CF6F19AA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB7BB7CA0F163ADEF0A14B /* Pods_ChicknMatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7241401E2E742BA3000F0503 = {
+			isa = PBXGroup;
+			children = (
+				724140382E742BCA000F0503 /* ChicknMatch */,
+				724140282E742BA3000F0503 /* Products */,
+				2CD894A71171FA8D9B5D2797 /* Pods */,
+				41D72C8742C5AB8CF6F19AA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		724140282E742BA3000F0503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				724140272E742BA3000F0503 /* ChicknMatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		724140382E742BCA000F0503 /* ChicknMatch */ = {
+			isa = PBXGroup;
+			children = (
+				7241404A2E742D46000F0503 /* Info.plist */,
+				724140462E742C18000F0503 /* Extensions */,
+				724140402E742C0F000F0503 /* Screens */,
+				7241403B2E742BCD000F0503 /* App */,
+				724140362E742BCA000F0503 /* Assets.xcassets */,
+			);
+			path = ChicknMatch;
+			sourceTree = "<group>";
+		};
+		7241403B2E742BCD000F0503 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				724140372E742BCA000F0503 /* ChicknMatchApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7241403D2E742C0F000F0503 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7241403C2E742C0F000F0503 /* CMHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		7241403F2E742C0F000F0503 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7241403E2E742C0F000F0503 /* CMLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		724140402E742C0F000F0503 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7241403D2E742C0F000F0503 /* HomeWebScreen */,
+				7241403F2E742C0F000F0503 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		724140462E742C18000F0503 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				724140432E742C18000F0503 /* View+Extensions.swift */,
+				724140442E742C18000F0503 /* Color+Extensions.swift */,
+				724140452E742C18000F0503 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		724140262E742BA3000F0503 /* ChicknMatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724140332E742BA4000F0503 /* Build configuration list for PBXNativeTarget "ChicknMatch" */;
+			buildPhases = (
+				276ECE50B75156B6533239D2 /* [CP] Check Pods Manifest.lock */,
+				724140232E742BA3000F0503 /* Sources */,
+				724140242E742BA3000F0503 /* Frameworks */,
+				724140252E742BA3000F0503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChicknMatch;
+			productName = ChicknMatch;
+			productReference = 724140272E742BA3000F0503 /* ChicknMatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7241401F2E742BA3000F0503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					724140262E742BA3000F0503 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 724140222E742BA3000F0503 /* Build configuration list for PBXProject "ChicknMatch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7241401E2E742BA3000F0503;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 724140282E742BA3000F0503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				724140262E742BA3000F0503 /* ChicknMatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		724140252E742BA3000F0503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724140392E742BCA000F0503 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		276ECE50B75156B6533239D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChicknMatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		724140232E742BA3000F0503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724140472E742C18000F0503 /* ShapeStyle+Extensions.swift in Sources */,
+				724140482E742C18000F0503 /* View+Extensions.swift in Sources */,
+				724140492E742C18000F0503 /* Color+Extensions.swift in Sources */,
+				7241403A2E742BCA000F0503 /* ChicknMatchApp.swift in Sources */,
+				724140412E742C0F000F0503 /* CMHomeWebView.swift in Sources */,
+				724140422E742C0F000F0503 /* CMLaunchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		724140312E742BA4000F0503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		724140322E742BA4000F0503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		724140342E742BA4000F0503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDF6C9C1075B2DA8FC20097 /* Pods-ChicknMatch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChicknMatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chick’n Match";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.revinproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		724140352E742BA4000F0503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA89D034AC2CE2126D902657 /* Pods-ChicknMatch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChicknMatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chick’n Match";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.revinproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		724140222E742BA3000F0503 /* Build configuration list for PBXProject "ChicknMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724140312E742BA4000F0503 /* Debug */,
+				724140322E742BA4000F0503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724140332E742BA4000F0503 /* Build configuration list for PBXNativeTarget "ChicknMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724140342E742BA4000F0503 /* Debug */,
+				724140352E742BA4000F0503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7241401F2E742BA3000F0503 /* Project object */;
+}

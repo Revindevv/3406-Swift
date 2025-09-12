@@ -1,0 +1,6 @@
+framework module Pods_ChicknMatch {
+  umbrella header "Pods-ChicknMatch-umbrella.h"
+
+  export *
+  module * { export * }
+}
