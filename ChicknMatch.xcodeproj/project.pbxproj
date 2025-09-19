@@ -15,6 +15,15 @@
 		724140472E742C18000F0503 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140452E742C18000F0503 /* ShapeStyle+Extensions.swift */; };
 		724140482E742C18000F0503 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140432E742C18000F0503 /* View+Extensions.swift */; };
 		724140492E742C18000F0503 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140442E742C18000F0503 /* Color+Extensions.swift */; };
+		7241418B2E7D5AB0000F0503 /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241418A2E7D5AB0000F0503 /* AppEntryPoint.swift */; };
+		7241418C2E7D5AB0000F0503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141892E7D5AB0000F0503 /* AppDelegate.swift */; };
+		7241418E2E7D5ACC000F0503 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241418D2E7D5ACC000F0503 /* TextScreen.swift */; };
+		724141982E7D5AEF000F0503 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141942E7D5AEF000F0503 /* WebViewContainer.swift */; };
+		724141992E7D5AEF000F0503 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141932E7D5AEF000F0503 /* UserAgentBuilder.swift */; };
+		7241419A2E7D5AEF000F0503 /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141962E7D5AEF000F0503 /* WebSheetViewController.swift */; };
+		7241419B2E7D5AEF000F0503 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141952E7D5AEF000F0503 /* WebViewCoordinator.swift */; };
+		7241419C2E7D5AEF000F0503 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 724141922E7D5AEF000F0503 /* index.html */; };
+		7241419F2E7D5B07000F0503 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241419D2E7D5B07000F0503 /* PrivacyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		724140442E742C18000F0503 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		724140452E742C18000F0503 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
 		7241404A2E742D46000F0503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		724141892E7D5AB0000F0503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7241418A2E7D5AB0000F0503 /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
+		7241418D2E7D5ACC000F0503 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		724141922E7D5AEF000F0503 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		724141932E7D5AEF000F0503 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		724141942E7D5AEF000F0503 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		724141952E7D5AEF000F0503 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		724141962E7D5AEF000F0503 /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
+		7241419D2E7D5B07000F0503 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
 		AA89D034AC2CE2126D902657 /* Pods-ChicknMatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChicknMatch.release.xcconfig"; path = "Target Support Files/Pods-ChicknMatch/Pods-ChicknMatch.release.xcconfig"; sourceTree = "<group>"; };
 		CFBB7BB7CA0F163ADEF0A14B /* Pods_ChicknMatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChicknMatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +112,8 @@
 		7241403B2E742BCD000F0503 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				724141892E7D5AB0000F0503 /* AppDelegate.swift */,
+				7241418A2E7D5AB0000F0503 /* AppEntryPoint.swift */,
 				724140372E742BCA000F0503 /* ChicknMatchApp.swift */,
 			);
 			path = App;
@@ -118,6 +138,8 @@
 		724140402E742C0F000F0503 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				7241419E2E7D5B07000F0503 /* PrivacyScreen */,
+				724141972E7D5AEF000F0503 /* Web */,
 				7241403D2E742C0F000F0503 /* HomeWebScreen */,
 				7241403F2E742C0F000F0503 /* LaunchScreen */,
 			);
@@ -127,11 +149,32 @@
 		724140462E742C18000F0503 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7241418D2E7D5ACC000F0503 /* TextScreen.swift */,
 				724140432E742C18000F0503 /* View+Extensions.swift */,
 				724140442E742C18000F0503 /* Color+Extensions.swift */,
 				724140452E742C18000F0503 /* ShapeStyle+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		724141972E7D5AEF000F0503 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				724141922E7D5AEF000F0503 /* index.html */,
+				724141932E7D5AEF000F0503 /* UserAgentBuilder.swift */,
+				724141942E7D5AEF000F0503 /* WebViewContainer.swift */,
+				724141952E7D5AEF000F0503 /* WebViewCoordinator.swift */,
+				724141962E7D5AEF000F0503 /* WebSheetViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		7241419E2E7D5B07000F0503 /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7241419D2E7D5B07000F0503 /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				724140392E742BCA000F0503 /* Assets.xcassets in Resources */,
+				7241419C2E7D5AEF000F0503 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +275,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				724140472E742C18000F0503 /* ShapeStyle+Extensions.swift in Sources */,
+				7241418E2E7D5ACC000F0503 /* TextScreen.swift in Sources */,
+				724141982E7D5AEF000F0503 /* WebViewContainer.swift in Sources */,
+				724141992E7D5AEF000F0503 /* UserAgentBuilder.swift in Sources */,
+				7241419A2E7D5AEF000F0503 /* WebSheetViewController.swift in Sources */,
+				7241419F2E7D5B07000F0503 /* PrivacyView.swift in Sources */,
+				7241419B2E7D5AEF000F0503 /* WebViewCoordinator.swift in Sources */,
+				7241418B2E7D5AB0000F0503 /* AppEntryPoint.swift in Sources */,
+				7241418C2E7D5AB0000F0503 /* AppDelegate.swift in Sources */,
 				724140482E742C18000F0503 /* View+Extensions.swift in Sources */,
 				724140492E742C18000F0503 /* Color+Extensions.swift in Sources */,
 				7241403A2E742BCA000F0503 /* ChicknMatchApp.swift in Sources */,
@@ -363,7 +415,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -383,7 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.revinproj.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -404,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,7 +476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.revinproj.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
